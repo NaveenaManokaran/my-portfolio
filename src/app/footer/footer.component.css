@@ -1,0 +1,15 @@
+/* footer starts here */
+.footertxt {
+    position: relative;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    line-height: 300%;
+    font-size: 100%;
+}
+#foot{
+    background-color: #0c232d;
+}
+.heart{
+    color:#aec8e6;
+}

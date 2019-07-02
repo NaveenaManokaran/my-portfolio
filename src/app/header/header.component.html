@@ -1,0 +1,33 @@
+<div style="padding-bottom: 1%;">
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+    <ul class="nav navbar-nav desk-menu">
+      <div class="first" style="display: inline-block">
+        <a routerLink="../home"><img src="{{config}}/assets/images/logo.png" alt="Naveena" class="logo">
+          <h4>Naveena Manokaran</h4>
+        </a>
+        <span class="ham-menu glyphicon glyphicon-menu-hamburger" (click)="openNav()"></span>
+      </div>
+      <div id="myNav" class="overlay">
+        <a class="closebtn" (click)="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#about" (click)="closeNav()">About Me</a>
+          <a href="#work" (click)="closeNav()">My Works</a>
+          <a class="contact" href="{{config}}/assets/Naveena_resume.pdf" (click)="closeNav()" target="_blank">Résumé</a>
+          <a href="#contact" (click)="closeNav()">Contact</a>
+        </div>
+      </div>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      <li>
+        <a class="contact" href="{{config}}/assets/Naveena_resume.pdf" target="_blank">Résumé</a>
+      </li>
+      <li>
+        <a href="#work">My Works</a>
+      </li>
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+    </ul>
+  </nav>
+</div>

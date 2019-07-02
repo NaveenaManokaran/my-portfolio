@@ -1,0 +1,133 @@
+/* scroll header */
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: #0c232d !important; 
+}
+.affix-top{
+    background-color:transparent !important; 
+}
+/* frame starts here */
+.frame {
+    max-width: fit-content;
+    width: 100%;
+    margin: 0% 5% 0% 5%;
+  }
+  .title {
+      position: relative;
+      padding-top: 1%;
+      color:floralwhite;
+      font-size: 150%;
+      text-decoration: underline;
+      font-weight: bolder;
+      font-style: oblique;
+  }
+.passage {
+      position: relative;
+      color: whitesmoke;
+      font-size: 140%;
+      font-weight: bold;
+      padding-top: 2%;
+      text-align: justify;
+      line-height: 200%;
+      letter-spacing: 0.05em;
+}
+/* image */
+/* Mobile */
+@media (min-width:320px) { 
+    
+    .img-flex{
+        display:block;
+      }
+      .confidential{
+        text-align: left;
+      }
+      .image{
+        padding-right:1%
+      }
+      .passage{
+          text-align: left;
+      }
+ }
+@media (min-width:481px) { 
+    
+    .img-flex{
+        display:block;
+      }
+      .confidential{
+        text-align: left;
+      }
+      .image{
+        padding-right:1%
+      }
+      .passage{
+        text-align: left;
+    }
+}
+/* ipad */
+@media (min-width:768px) and (min-height:702px) { 
+    .img-flex{
+        display:flex;
+      }
+      .confidential{
+        flex:3;
+        font-size: 120%;
+        text-align: center;
+      }
+      .image{
+        flex:3;
+        padding-right:1%
+      }
+}
+/* tablet */
+@media (min-width:961px) { 
+    .img-flex{
+        display:flex;
+      }
+      .confidential{
+        flex:3;
+        padding-top: 10%;
+        text-align: center;
+      }
+      .image{
+        flex:3;
+        padding-right:1%
+      }
+ }
+@media (min-width:1025px) { 
+    .img-flex{
+        display:flex;
+      }
+      .confidential{
+        flex:3;
+        /* padding-top: 15%; */
+        text-align: center;
+      }
+      .image{
+        flex:3;
+        padding-right:1%
+      }
+}
+@media (min-width:1281px) { 
+    .img-flex{
+        display:flex;
+      }
+      .confidential{
+        flex:3;
+        /* padding-top: 15%; */
+        text-align: center;
+      }
+      .image{
+        flex:3;
+        padding-right:1%
+      }
+
+ }
+  
+  /* passage heading */
+  .head{
+    text-decoration: underline;
+    font-style: italic;
+    color: antiquewhite;
+  }

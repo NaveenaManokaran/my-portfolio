@@ -1,0 +1,57 @@
+/* Header */
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: #0c232d !important; 
+}
+.affix-top{
+    background-color:transparent !important; 
+}
+/* frame starts here */
+.frame {
+  max-width: fit-content;
+  width: 100%;
+  margin: 0% 5% 0% 5%;
+}
+.title {
+    position: relative;
+    padding-top: 10%;
+    color:floralwhite;
+    font-size: 160%;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+}
+.subtitle{
+    padding-top: 3%;
+    text-decoration: underline;
+}
+.passage {
+    position: relative;
+    color: whitesmoke;
+    font-size: 140%;
+    font-weight: bold;
+    padding-top: 2%;
+    text-align: justify;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+}
+.clg {
+    position: relative;
+    color: antiquewhite;
+    font-size: 140%;
+    font-weight: bold; 
+    padding-top: 3%;
+    text-align: Centre;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+}
+.year {
+    position: relative;
+    color: antiquewhite;
+    font-size: 140%;
+    font-weight: bold; 
+    text-align: Centre;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+}

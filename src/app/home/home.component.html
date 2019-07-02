@@ -1,0 +1,71 @@
+<!-- header -->
+<app-header></app-header>
+<!-- slides starts -->
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <a routerLink="../home">
+          <img src="{{config}}/assets/images/slides/welcome.jpg" alt="Welcome" style="width:100%;">
+          <div class="carousel-caption">
+            <h2>Oh, Hello, Nice to meet you !!!</h2>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#about">
+          <img src="{{config}}/assets/images/slides/about.jpg" alt="About" style="width:100%;">
+          <div class="carousel-caption">
+            <h2>I'm Naveena</h2>
+            <p>UI Developer with 3 years of experience in creating digital web applications that entices the user into
+              a seamless
+              interaction with computer</p>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#work">
+          <img src="{{config}}/assets/images/slides/work.jpg" alt="Work" style="width:100%;">
+          <div class="carousel-caption">
+            <h1>Some of My Latest Works:</h1>
+            <p>Operational Dashboard <br>Agile Resource Tool <br>New Year Relevance Tool</p>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#contact">
+          <img src="{{config}}/assets/images/slides/contact.png" alt="Contact" style="width:100%;">
+          <div class="carousel-caption">
+            <h2>Feel Free to reach out to me</h2>
+            <p></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- about details -->
+<app-about></app-about>
+<!-- work details -->
+<app-work></app-work>
+<!-- contact details -->
+<app-contact></app-contact>
+<!-- footer details -->
+<app-footer></app-footer>

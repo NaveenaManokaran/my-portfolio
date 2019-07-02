@@ -1,0 +1,53 @@
+/* header */
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: #0c232d !important; 
+}
+.affix-top{
+    background-color:transparent !important; 
+}
+/* frame starts here */
+.frame {
+    max-width: fit-content;
+    width: 100%;
+    margin: 0% 5% 0% 5%;
+}
+.title {
+    position: relative;
+    padding-top: 5%;
+    color:floralwhite;
+    font-size: 160%;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+}
+/* panel styling css */
+.panel{
+    background-color: transparent;
+}
+.panel-group {
+    margin-top: 3%;
+}
+.panel-heading{
+    color:whitesmoke;
+    border-bottom: 1px solid #ddd;
+    background-color:#173645;
+    letter-spacing: 0.05em;
+}
+.panel-title{
+    font-weight: bolder;
+    font-size: 160%;
+    letter-spacing: 0.05em;
+}
+.panel-body{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 140%;
+    letter-spacing: 0.05em;
+}
+a:hover,a {
+    color: antiquewhite;
+    text-decoration: none;
+}
