@@ -4,12 +4,12 @@
     color: whitesmoke;
     font-weight: bold;
     text-align: center;
-    line-height: 300%;
+    line-height: 150%;
     font-size: 100%;
 }
 #foot{
     background-color: #0c232d;
 }
 .heart{
-    color:#aec8e6;
+    color:#aec8e6 !important;
 }
