@@ -10,6 +10,7 @@
 #foot{
     background-color: #0c232d;
 }
-.heart{
+.fa, .fa-heart{
+    font-size: 75%;
     color:#aec8e6 !important;
 }
