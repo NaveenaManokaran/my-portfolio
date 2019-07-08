@@ -22,7 +22,6 @@
     font-size: 160%;
     font-weight: bolder;
     letter-spacing: 0.05em;
-    text-decoration: underline;
   }
 .work_foot {    
     position: relative;
@@ -30,6 +29,7 @@
     font-size: 140%;
     font-weight: bolder;
     letter-spacing: 0.05em;
+    padding-top: 1%;
 }
 @media (min-width: 1000px){
 .wrap {

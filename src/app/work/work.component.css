@@ -21,14 +21,13 @@
     font-size: 160%;
     font-weight: bolder;
     letter-spacing: 0.05em;
-    text-decoration: underline;
 }
 /* panel styling css */
 .panel{
     background-color: transparent;
 }
 .panel-group {
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .panel-heading{
     color:whitesmoke;

@@ -24,14 +24,13 @@
 }
 .subtitle{
     padding-top: 3%;
-    text-decoration: underline;
 }
 .passage {
     position: relative;
     color: whitesmoke;
     font-size: 140%;
     font-weight: bold;
-    padding-top: 2%;
+    padding-top: 1%;
     text-align: justify;
     line-height: 200%;
     letter-spacing: 0.05em;
@@ -41,7 +40,7 @@
     color: antiquewhite;
     font-size: 140%;
     font-weight: bold; 
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: Centre;
     line-height: 150%;
     letter-spacing: 0.05em;
